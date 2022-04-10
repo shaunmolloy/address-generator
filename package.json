@@ -1,0 +1,28 @@
+{
+  "name": "@shaunmolloy/address-generator",
+  "version": "1.0.0",
+  "description": "Address generator is a node module that outputs a random address",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "bin": {
+    "address-generator": "./index.js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaunmolloy/address-generator.git"
+  },
+  "author": "Shaun Molloy <shaunmolloy@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shaunmolloy/address-generator/issues"
+  },
+  "homepage": "https://github.com/shaunmolloy/address-generator#readme"
+}
